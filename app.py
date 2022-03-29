@@ -74,7 +74,7 @@ if __name__ == '__main__':
     scaler = MinMaxScaler(feature_range=(0, 1))
     df_2022 = scaler.fit_transform(df_2022)
 
-    X_train2 = df_2022[0:15]
+    X_train2 = df_2022[72:87]
     X_train2 = numpy.reshape(X_train2, (15, 1, 1))
 
     predict = model.predict(X_train2)
