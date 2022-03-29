@@ -1,5 +1,11 @@
 # DSAI HW1
 
+## Run Code
+
+```
+python app.py --training "data/power_information_detail.csv" --output submission.csv
+```
+
 ---
 
 ## EDA
